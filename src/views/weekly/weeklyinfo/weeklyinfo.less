@@ -1,0 +1,125 @@
+
+body{
+    
+    background: #F0F3F7;
+    }
+   
+    .content{
+        width: 1200px;
+        margin:8px auto 0;
+        .changeModel{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            height: 52px;
+            line-height: 52px;
+            border-bottom: 1px solid #E9E9E9;
+            background: #fff;
+            ul{
+                li{
+                    display: inline-block;
+                    width: 100px;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.65);
+                }
+                .active{
+                    color: rgba(0, 0, 0, 0.85);
+                    border-bottom: 2px solid #1890FF;
+                    box-sizing: border-box;
+    
+                }
+            }
+            div{
+                margin: 0 24px ;
+            }
+        }
+        .msg{
+            background: #fff;
+            padding-bottom: 200px;
+            .weeklyInfoKind{
+                border-bottom:1px solid #E9E9E9;
+                display: flex;
+                justify-content: space-between;
+                padding: 16px 32px;
+                .changeKind{
+                    width: 400px;
+                    label{
+                        color: rgba(0, 0, 0, 0.85);
+                        display: inline-block;
+                        height: 32px;
+                        line-height: 32px;
+                        color: rgba(0, 0, 0, 0.85);
+                        font-family: PingFangSC-Regular, PingFang SC;
+                        position: absolute;
+                    }
+                    .kind{
+                        display: inline-block;
+                        width: 300px;
+                        margin-left: 100px;
+                        
+                    }
+                    .getName {
+                        display: inline-block;
+                        margin-left: 100px;
+                        border-radius: 4px;
+                        width: 240px;
+                        height: 32px;
+                        line-height: 32px;
+                        padding-left: 6px;
+                        color: rgba(0, 0, 0, 0.25);
+                        border: 1px solid rgba(0, 0, 0, 0.15);
+                        cursor: pointer;
+                      }
+                }
+            }
+            .weeklyProgress{
+                padding: 24px 32px;
+                h3{
+                    font-size: 18px;
+                    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+                    font-weight: 600;
+                    color: rgba(0, 0, 0, 0.85);
+                    margin-bottom: 24px;
+                }
+                .progress{  
+                    padding: 0 80px;
+                    display: flex;
+                    justify-content: space-between;
+                    label{
+                        display: inline-block;
+                        width: 64px;
+                        height: 32px;
+                        background: #1890FF;
+                        border-radius: 4px;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 32px;
+                        cursor: pointer;
+                    }
+                    .cantClick{
+                        background: #ccc;
+                    }
+                    .progressBar{
+                        width: 800px;
+                        height: 32px;
+                        border-radius: 16px;
+                        overflow: hidden;
+                        background: #fafafa;
+                        margin-bottom: 34px;
+                        .realyProgress{
+                            
+                            background: #1890FF;
+                       
+                        }
+                    }
+                }
+                .pageStyle{
+                    margin: 20px 40px;
+                }
+            }
+            
+        }
+        
+    }

@@ -1,0 +1,136 @@
+.settingBox {
+  .weekconfigTitle {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 22px;
+    margin-left: 11px;
+    input {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #ffffff;
+    }
+  }
+
+  .weekLabel {
+    line-height: 31px;
+  }
+
+  .weekUser {
+    margin-top: 8px;
+    margin-left: 14px;
+    .weekLabel {
+      flex-shrink: 0;
+    }
+  }
+
+  .weekconfigWrap {
+    .weekUl {
+      li {
+        margin-bottom: 10px;
+        label {
+          width: 120px;
+          margin-bottom: 24px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .ant-picker {
+    margin: 0 20px;
+  }
+  .CCList {
+    .CC {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      border-radius: 50%;
+      margin-right: 24px;
+      text-align: center;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #666;
+      }
+    }
+    .addCC {
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      vertical-align: top;
+      line-height: 36px;
+      text-align: center;
+      color: #999;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+  .Settingright {
+    display: flex;
+    width: 100%;
+    .groupBox {
+      background: #fff;
+      margin-right: 10px;
+      padding: 20px 10px;
+      width: 260px;
+      li {
+        margin: 10px 30px;
+      }
+    }
+  }
+
+  // new
+  .weekly-tip_range {
+    display: flex;
+    line-height: 32px;
+    margin-bottom: 15px;
+    .weekLabel {
+      flex-shrink: 0;
+    }
+    .tags {
+      height: 22px;
+      font-size: 12px;
+      margin: 4px 4px 4px 0;
+      color: rgba(0, 0, 0, 0.65);
+      background: #fff;
+      border: 1px solid #1653ee;
+      &.tags_add {
+        cursor: pointer;
+        width: 30px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+
+  .weekly_status-check {
+    height: 30px;
+    width: 49px;
+    .ant-switch-handle {
+      height: 26px;
+      width: 26px;
+      &::before{
+        border-radius: 50%;
+      }
+    }
+  }
+  .ant-switch-checked .ant-switch-handle{
+    left: calc(100% - 26px - 2px);
+  }
+  .weekly_status-select {
+    margin-left: 5px;
+    width: 200px;
+    height: 32px;
+  }
+}

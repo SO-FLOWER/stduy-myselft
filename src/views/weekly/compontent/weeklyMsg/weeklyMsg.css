@@ -1,0 +1,366 @@
+.personweeklist {
+  color: #1890ff;
+  cursor: pointer;
+  margin-left: 240px;
+}
+.weeklyMsg {
+  margin-bottom: 24px;
+}
+.weeklyMsg .msgShow {
+  margin-bottom: 24px;
+}
+.weeklyMsg .msgShow p {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.65);
+}
+.weeklyMsg .msgShow .div1 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+  letter-spacing: 1px;
+  line-height: 24px;
+  width: 856px;
+  white-space: pre-wrap;
+}
+.weeklyMsg .tableShow1 {
+  width: 855px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.weeklyMsg .tableShow1 label {
+  vertical-align: top;
+  display: inline-block;
+  width: 106px;
+  line-height: 54px;
+  height: 54px;
+}
+.weeklyMsg .tableShow1 .tableName1 {
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.weeklyMsg .tableShow1 .tableTitle {
+  line-height: 54px;
+  height: 54px;
+  background: #fafafa;
+  font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+}
+.weeklyMsg .tableShow1 .tableAll {
+  font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+}
+.commentList {
+  display: flex;
+  justify-content: space-between;
+}
+.commentList .commentL div {
+  display: inline-block;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-right: 24px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.commentList .commentL div span {
+  margin-left: 4px;
+}
+.commentList .commentL div img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+.commentList .selperallweekly {
+  color: #1890ff;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 72px;
+}
+.commentList .commentR {
+  color: #1890ff;
+  cursor: pointer;
+}
+.commentList .commentR label {
+  margin-left: 4px;
+}
+.like {
+  margin-top: 24px;
+}
+.like li {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 2px;
+}
+.like li img {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+.like div {
+  display: inline-block;
+  font-family: SourceHanSansCN-Light, SourceHanSansCN;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.65);
+  margin-left: 8px;
+}
+.comment {
+  margin-top: 30px;
+  border-top: 1px solid #e8e8e8;
+  padding: 14px 20px;
+}
+.comment .inputComment {
+  margin-bottom: 20px;
+}
+.comment .inputComment div {
+  vertical-align: top;
+  width: 728px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  display: inline-block;
+  margin-right: 10px;
+  box-sizing: border-box;
+  /* Internet Explorer 10+ */
+  /* WebKit browsers */
+  /* Mozilla Firefox 4 to 18 */
+}
+.comment .inputComment div input {
+  border: 0;
+  outline: none;
+  height: 28px;
+  padding: 2px 8px;
+  width: 678px;
+}
+.comment .inputComment div input:-ms-input-placeholder {
+  color: #ccc;
+}
+.comment .inputComment div input::-webkit-input-placeholder {
+  color: #ccc;
+}
+.comment .inputComment div input::-moz-placeholder {
+  color: #ccc;
+}
+.comment .inputComment div input:-moz-placeholder {
+  color: #ccc;
+}
+.comment .inputComment div span {
+  color: #ccc;
+}
+.cite {
+  position: relative;
+  color: rgba(0, 0, 0, 0.45);
+  padding: 33px 20px;
+}
+.cite .citeHead {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 22px;
+  padding: 2px 6px;
+  border-left: 2px solid #979797;
+}
+.cite div {
+  margin-left: 60px;
+  display: inline-block;
+  width: 640px;
+}
+.cite em {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: #96989b;
+  position: absolute;
+  top: 18px;
+  right: 90px;
+  cursor: pointer;
+}
+.otherComment h3 {
+  font-size: 16px;
+  font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+}
+.otherComment .pageChange {
+  margin: auto;
+  display: inline-block;
+}
+.otherComment .commentList .commentHeader {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin-bottom: 8px;
+}
+.otherComment .commentList .commentHeader img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.otherComment .commentList .commentMsg {
+  margin-left: 50px;
+  margin-bottom: 8px;
+}
+.otherComment .commentList .commentMsg .commentM {
+  font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+  color: rgba(0, 0, 0, 0.65);
+}
+.otherComment .commentList .commentMsg .commentM span {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+  margin-right: 4px;
+}
+.otherComment .commentList .commentMsg .commentCite {
+  margin: 10px 13px;
+  padding: 0 8px;
+  color: rgba(0, 0, 0, 0.45);
+  border-left: 2px solid rgba(0, 0, 0, 0.45);
+}
+.otherComment .commentList .commentMsg .commentTime {
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.45);
+}
+.otherComment .commentList .commentMsg .commentOperation {
+  margin-bottom: 8px;
+  color: #1890ff;
+  cursor: pointer;
+}
+.otherComment .commentList .commentMsg .commentOperation span {
+  margin-right: 16px;
+}
+.otherComment .commentList .commentMsg .inputC {
+  margin-bottom: 8px;
+}
+.otherComment .commentList .commentMsg .inputC div {
+  vertical-align: top;
+  width: 670px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  display: inline-block;
+  margin-right: 10px;
+  box-sizing: border-box;
+  /* Internet Explorer 10+ */
+  /* WebKit browsers */
+  /* Mozilla Firefox 4 to 18 */
+}
+.otherComment .commentList .commentMsg .inputC div input {
+  border: 0;
+  outline: none;
+  height: 28px;
+  padding: 2px 8px;
+  width: 620px;
+}
+.otherComment .commentList .commentMsg .inputC div input:-ms-input-placeholder {
+  color: #ccc;
+}
+.otherComment .commentList .commentMsg .inputC div input::-webkit-input-placeholder {
+  color: #ccc;
+}
+.otherComment .commentList .commentMsg .inputC div input::-moz-placeholder {
+  color: #ccc;
+}
+.otherComment .commentList .commentMsg .inputC div input:-moz-placeholder {
+  color: #ccc;
+}
+.otherComment .commentList .commentMsg .inputC div span {
+  color: #ccc;
+}
+.hidden {
+  display: none;
+}
+.blue {
+  color: #1677ff !important;
+}
+.headerPic {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  background: #1677ff;
+  border-radius: 50%;
+}
+.headerPic50 {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  background: #1677ff;
+  border-radius: 50%;
+  transform: scale(0.7);
+}
+.headerPic125 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  font-size: 17px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  background: #1677ff;
+  border-radius: 50%;
+}
+.read-box {
+  position: relative;
+}
+.read-box .week_dia-box {
+  position: absolute;
+  background: #fff;
+  left: 0;
+  top: 28px;
+  width: 454px;
+  max-height: 327px;
+  display: flex;
+  flex-flow: wrap;
+  overflow-y: auto;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 14px;
+  z-index: 9;
+}
+.read-box .week_dia-box::-webkit-scrollbar {
+  width: 5px;
+  background: #fff;
+}
+.read-box .week_dia-box::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+.read-box .week_dia-box::-webkit-scrollbar-thumb {
+  /* 滑块 */
+  border-radius: 16px;
+  background: #999;
+}
+.read-box .week_dia-box li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px 9px;
+  width: 42px;
+  font-family: 'SourceHanSansCN-Normal', 'SourceHanSansCN';
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 21px;
+}
+.read-box .week_dia-box li .week_dia-name {
+  margin-top: 6px;
+  margin-right: 0 !important;
+}
+.read-box .week_dia-box li img {
+  width: 40px !important;
+  height: 40px !important;
+}
+.read-box .week_dia-box li .avatar .ant-avatar-string {
+  margin-left: 0;
+}

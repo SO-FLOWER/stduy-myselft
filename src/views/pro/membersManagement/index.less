@@ -1,0 +1,102 @@
+.membersManagement {
+  background: #fff;
+  .proName {
+    padding: 13px 26px;
+    border-bottom: 1px solid #e8e8e8;
+    h3 {
+      display: inline-block;
+      width: calc(100% - 200px);
+      text-align: center;
+      font-size: 18px;
+      font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+  .members {
+    padding: 14px 26px 40px;
+    .memberTable {
+      margin-top: 18px;
+      .tableTitle {
+        font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.85);
+        display: flex;
+        justify-content: space-between;
+        background: #fafafa;
+        height: 54px;
+        line-height: 54px;
+        text-align: center;
+      }
+      .tableMsg {
+        font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+        color: rgba(0, 0, 0, 0.65);
+        display: flex;
+        justify-content: space-between;
+        height: 54px;
+        line-height: 54px;
+        border-bottom: 1px solid #e8e8e8;
+      }
+    }
+  }
+
+  // 最新样式
+  .pro_member {
+    width: 100%;
+    text-align: left;
+    margin-top: 18px;
+    th {
+      font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      background: #fafafa;
+      height: 54px;
+      line-height: 54px;
+      padding: 0 8px;
+    }
+    tbody {
+      tr{
+        &:hover{
+          background: rgba(216, 216, 216, 0.25);
+        }
+      }
+      td {
+        height: 54px;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 0 8px;
+        &.pro_member-jobs{
+          width: 190px;
+        }
+      }
+      .pro_member-edit-box{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        .pro_member-edit-ico{
+          display: none;
+          width: 14px;
+          height: 14px;
+          background: url(../../../img/edit.jpg) no-repeat;
+          background-size: contain;
+          margin-left: 9px;
+        }
+        &:hover{
+          .pro_member-edit-ico{
+            cursor: pointer;
+            display: inline-block;
+          }
+        }
+      }
+      .pro_member-edit-ipt{
+        background: transparent;
+        border-width: 0 0 1px 0!important;
+        &:focus{
+          box-shadow: none;
+        }
+      }
+      .pro_member-quit {
+        color: #1677ff;
+      }
+    }
+  }
+}
